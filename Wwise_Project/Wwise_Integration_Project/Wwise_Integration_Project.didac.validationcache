@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Wwise_Integration_Project.wproj" DateLow="1592492898" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Wwise_Integration_Project.didac.wsettings" DateLow="1592492914" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1587711199" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Triggers\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
@@ -15,7 +16,7 @@
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Presets\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Modulators\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Mixing Sessions\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592492912" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1587711197" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Game Parameters\Factory Motion.wwu" DateLow="1587711199" DateHigh="0"/>
@@ -37,10 +38,10 @@
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1587711182" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Conversion Settings\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Control Surface Sessions\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Audio Devices\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Audio Devices\Default Work Unit.wwu" DateLow="1592492912" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Attenuations\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1587711182" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1587711197" DateHigh="0"/>
-	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1587711199" DateHigh="0"/>
+	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1592492912" DateHigh="0"/>
 	<ValidationCacheItem File="E:\GitHub\Wwise-Integration-Exercise\Wwise_Project\Wwise_Integration_Project\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592492898" DateHigh="0"/>
 </ValidationCache>
