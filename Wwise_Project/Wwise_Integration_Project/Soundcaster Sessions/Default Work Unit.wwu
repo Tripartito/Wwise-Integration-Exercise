@@ -53,11 +53,17 @@
 							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
 							<Value>50</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Player_MovementSpeed" ID="{430CD08B-632A-4EDE-8705-C6D9F23261DE}"/>
+							<Value>100</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Nowhere" ID="{BE75736B-CC6A-4413-A0DF-D461030662B3}"/>
+						<CurrentStateRef Name="Village" ID="{644328B4-2E17-49A5-8798-6932F9FE6972}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Item" ID="{BA338DFB-8C1F-4995-A3AD-AE95669FFAC1}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

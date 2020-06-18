@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F7FA6B04-231C-4440-8DD0-354090327D88}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{F7FA6B04-231C-4440-8DD0-354090327D88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F7FA6B04-231C-4440-8DD0-354090327D88}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Player_Pickup_Type" ID="{1CC695D3-A9F0-4C2E-BDF2-0EA62A2DB954}">
+					<ChildrenList>
+						<Switch Name="Item" ID="{BA338DFB-8C1F-4995-A3AD-AE95669FFAC1}"/>
+						<Switch Name="Weapon" ID="{2D28FD51-0967-40FD-B8AC-B38AA1CB73EA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

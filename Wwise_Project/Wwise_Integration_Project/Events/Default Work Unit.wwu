@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_TitleScreen" ID="{C4B1E712-2F75-4BC2-AF9D-BD4AA86A4A2E}">
+					<ChildrenList>
+						<Action Name="" ID="{16EE9E0D-E71B-486D-B021-A264D81073C3}" ShortID="939597317">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main_Menu_Music" ID="{0723B86B-90B9-4CBF-BB19-0D43D4825277}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stinger_GetWeapon" ID="{0810001F-DB39-446F-B077-6D9145102A2B}">
+					<ChildrenList>
+						<Action Name="" ID="{829D0ADC-3FD1-4E32-B1E2-F937E9777150}" ShortID="344334466">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tada" ID="{498F69AB-A80E-44D9-B724-69B86F35804B}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
