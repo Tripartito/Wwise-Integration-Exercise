@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{983BF8CE-634E-41B6-A938-9FF81C1E7563}" SchemaVersion="97">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{983BF8CE-634E-41B6-A938-9FF81C1E7563}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{983BF8CE-634E-41B6-A938-9FF81C1E7563}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Mixing Session" ID="{D281D533-35A6-418E-86C2-E8652D2521CB}">
+					<ObjectList>
+						<ObjectRef Name="Footsteps_Random_Container" ID="{4E396B6D-AF4F-4F0C-AA1C-6499D9C0754C}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+						<ObjectRef Name="Sequence Container" ID="{1351F930-4835-41AF-BD74-402F64561377}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+						<ObjectRef Name="Switch Container" ID="{80F55FFD-AB99-44C2-8972-38D00F1A3281}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+						<ObjectRef Name="Player_Weapon_Impact" ID="{BD19823D-5D21-42B9-A23A-1D8247B6522F}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+						<ObjectRef Name="Windmill" ID="{D2CBD304-A525-4C50-BCBE-8C3B830D2E12}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+						<ObjectRef Name="Tada" ID="{5FEC36F6-CA92-4E3C-9E73-80926C08DDA2}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+						<ObjectRef Name="Music_Switch_Container" ID="{2B2C7030-A07D-480A-837E-411059F05443}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+						<ObjectRef Name="Main_Menu_Music" ID="{0723B86B-90B9-4CBF-BB19-0D43D4825277}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

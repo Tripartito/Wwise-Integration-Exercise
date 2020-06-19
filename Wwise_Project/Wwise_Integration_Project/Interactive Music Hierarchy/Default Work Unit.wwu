@@ -4,12 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="Music_Switch_Container" ID="{2B2C7030-A07D-480A-837E-411059F05443}" ShortID="539113927">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Convert_OGG" ID="{FAC4696E-EB42-47E4-8605-0CDC6D915645}" WorkUnitID="{5DD3FE16-6178-4C84-933F-B10F2FDBBD0A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE36E021-662C-4F29-9D9C-CEFBE40D8CA9}"/>
+							<ObjectRef Name="Music_Bus" ID="{C0ABEEB4-3454-42EE-8E48-A34FBCD291D9}" WorkUnitID="{AE36E021-662C-4F29-9D9C-CEFBE40D8CA9}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -695,7 +702,10 @@
 						</MusicTransition>
 					</TransitionList>
 					<StingerList>
-						<MusicStinger Name="" ID="{85B99155-7DE0-4CE4-9075-B8AD287EAD77}"/>
+						<MusicStinger Name="" ID="{85B99155-7DE0-4CE4-9075-B8AD287EAD77}">
+							<TriggerRef Name="Weapon_Picked" ID="{F8D5A644-D581-4A27-8556-7CBB76E76783}" WorkUnitID="{CD13C4C4-1DD0-409B-9BFF-87F2B973EE63}"/>
+							<SegmentRef Name="Tada" ID="{5FEC36F6-CA92-4E3C-9E73-80926C08DDA2}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+						</MusicStinger>
 					</StingerList>
 					<ArgumentList>
 						<ArgumentRef Name="Music_Regions" ID="{7CE859FF-BEBD-41AB-9791-DA3DAD2EB2B3}"/>
@@ -817,6 +827,65 @@
 							<PropertyList>
 								<Property Name="CueType" Type="int16" Value="1"/>
 								<Property Name="TimeMs" Type="Real64" Value="265064.489795918"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="Tada" ID="{5FEC36F6-CA92-4E3C-9E73-80926C08DDA2}" ShortID="1011602954">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DD3FE16-6178-4C84-933F-B10F2FDBBD0A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Stingers_Ducking_Bus" ID="{9E74B1D2-1736-4298-A373-86F66DD80C57}" WorkUnitID="{AE36E021-662C-4F29-9D9C-CEFBE40D8CA9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Tada" ID="{22E54373-0152-4D1D-AC43-DDF035546885}" ShortID="882303876">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE36E021-662C-4F29-9D9C-CEFBE40D8CA9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tada" ID="{6DB27147-9E35-433C-B75B-3215BE1919DB}">
+									<Language>SFX</Language>
+									<AudioFile>Tada.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="525099920"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6AFF49A7-CACD-42AD-B278-B30588474402}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{8ADFFFA6-9157-4EF2-99BF-08AFF8022BDC}">
+									<ClipList>
+										<MusicClip Name="Tada" ID="{CD22B52F-9ECD-4942-A316-4647ACC2AD7B}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="2684.26303854875"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Tada" ID="{6DB27147-9E35-433C-B75B-3215BE1919DB}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{C7AA3141-FB20-4332-938F-26E97B8CAF9C}"/>
+						<MusicCue Name="Exit Cue" ID="{A8FF186B-689C-4D4F-AE94-586060C3CE5D}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="2684.26303854875"/>
 							</PropertyList>
 						</MusicCue>
 					</CueList>

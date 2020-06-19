@@ -9,6 +9,33 @@
 							<ObjectRef Name="System" ID="{7102D49B-B34E-4FE6-8D16-4B458EF6DB24}" WorkUnitID="{5AE2023E-86AE-4A5E-B487-03E094051A75}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music_Bus" ID="{C0ABEEB4-3454-42EE-8E48-A34FBCD291D9}"/>
+						<Bus Name="Stingers_Ducking_Bus" ID="{9E74B1D2-1736-4298-A373-86F66DD80C57}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music_Bus" ID="{C0ABEEB4-3454-42EE-8E48-A34FBCD291D9}"/>
+									<DuckingParam>
+										<Volume>-12</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="SFX_Bus" ID="{C0B02D9B-5B92-4043-9A16-141FE65A240B}"/>
+						<AuxBus Name="Cave" ID="{6CCCC90E-598E-43E5-A5B7-D6E238E1C313}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>

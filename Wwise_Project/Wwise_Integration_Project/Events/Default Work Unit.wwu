@@ -28,11 +28,24 @@
 				<Event Name="Stinger_GetWeapon" ID="{0810001F-DB39-446F-B077-6D9145102A2B}">
 					<ChildrenList>
 						<Action Name="" ID="{829D0ADC-3FD1-4E32-B1E2-F937E9777150}" ShortID="344334466">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Tada" ID="{498F69AB-A80E-44D9-B724-69B86F35804B}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+									<ObjectRef Name="Weapon_Picked" ID="{F8D5A644-D581-4A27-8556-7CBB76E76783}" WorkUnitID="{CD13C4C4-1DD0-409B-9BFF-87F2B973EE63}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{30E67025-5599-4757-95CF-820378C53CF3}">
+					<ChildrenList>
+						<Action Name="" ID="{B24281C6-845B-4D04-A059-941FA59EA79E}" ShortID="805808373">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CD13C4C4-1DD0-409B-9BFF-87F2B973EE63}" SchemaVersion="97">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{CD13C4C4-1DD0-409B-9BFF-87F2B973EE63}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CD13C4C4-1DD0-409B-9BFF-87F2B973EE63}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Weapon_Picked" ID="{F8D5A644-D581-4A27-8556-7CBB76E76783}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>
