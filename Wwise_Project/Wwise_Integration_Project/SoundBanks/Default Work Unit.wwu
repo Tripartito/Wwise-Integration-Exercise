@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3AD98F66-2040-47E9-B797-E467DDA1F0C5}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{3AD98F66-2040-47E9-B797-E467DDA1F0C5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3AD98F66-2040-47E9-B797-E467DDA1F0C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="General" ID="{3B0063EC-F085-437F-AC43-5871792BAD33}" ShortID="773464049"/>
+				<SoundBank Name="TitleScreen" ID="{064B26FE-00AF-4434-B46B-3FD27FF87AFD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE36E021-662C-4F29-9D9C-CEFBE40D8CA9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{296CB59B-4139-4195-8761-17B8EB7953F8}" WorkUnitID="{EC0F782A-77A9-468D-A4A3-E9CFAD89948E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_TitleScreen" ID="{C4B1E712-2F75-4BC2-AF9D-BD4AA86A4A2E}" WorkUnitID="{EC0F782A-77A9-468D-A4A3-E9CFAD89948E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

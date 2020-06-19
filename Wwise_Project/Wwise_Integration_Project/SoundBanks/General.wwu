@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{23C515AC-C42D-4987-8195-71BCBC267C35}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="General" ID="{23C515AC-C42D-4987-8195-71BCBC267C35}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="General" ID="{30CF5161-C374-47E2-8DB8-2694B8ED36F5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Region" ID="{765F028D-C95A-47A3-A58A-D775B0B265D6}" WorkUnitID="{EC0F782A-77A9-468D-A4A3-E9CFAD89948E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{AF209A25-E38F-4934-93BE-85B07934A219}" WorkUnitID="{EC0F782A-77A9-468D-A4A3-E9CFAD89948E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

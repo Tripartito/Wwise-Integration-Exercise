@@ -49,6 +49,46 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Music_Region" ID="{765F028D-C95A-47A3-A58A-D775B0B265D6}">
+					<ChildrenList>
+						<Action Name="" ID="{F7947A90-95BC-4AE8-8313-222221B602B1}" ShortID="99772893">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Switch_Container" ID="{2B2C7030-A07D-480A-837E-411059F05443}" WorkUnitID="{65A2E97B-5DF3-4D16-8FE7-1B6D644325A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Region_Woodlands" ID="{296CB59B-4139-4195-8761-17B8EB7953F8}">
+					<ChildrenList>
+						<Action Name="" ID="{54A8C0D3-104D-41E0-9815-A0FCF1E9B398}" ShortID="381213732">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woodlands" ID="{3C94E745-F363-47F9-997E-D4F3548DC741}" WorkUnitID="{C532EEA3-CE5B-421A-B087-434BEC3F72DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Windmill" ID="{66436694-3427-4BDA-89C1-7A4A45B0127B}">
+					<ChildrenList>
+						<Action Name="" ID="{08934A89-4082-4146-87C1-F76E50DE9934}" ShortID="930382750">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Windmill" ID="{D2CBD304-A525-4C50-BCBE-8C3B830D2E12}" WorkUnitID="{2E9B6099-1878-4859-878C-B1A852F40F0D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Hurt_Vox" ID="{3EB6D43B-C422-4CEE-905B-72055B088038}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
